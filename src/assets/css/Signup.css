@@ -1,0 +1,45 @@
+*{
+    color: white;
+    background-color: transparent;
+}
+input{
+    padding: 8px;
+    margin: 10px;
+    border-color: white;
+    border-radius: 8px;
+    background-color: transparent;
+    width: 350px;
+}
+input::placeholder{
+    color: rgb(196, 188, 188);
+}
+select{
+    padding: 10px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+select:hover{
+    background-color: rgb(114, 112, 112);
+}
+
+.form-signup{
+    width: 100%;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+}
+label{
+    font-weight: 600;
+}
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px !important;
+
+}
+@media only screen and (max-width:463px) {
+    input{
+        width: 200px;
+    }    
+}

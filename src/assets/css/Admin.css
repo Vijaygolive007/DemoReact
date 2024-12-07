@@ -1,0 +1,60 @@
+img{
+    width: 70px;
+}
+@media only screen and (max-width:1100px) {
+    table{
+        width: 50%;
+    }
+    .input{
+        width: 100px;
+    }
+    
+}
+@media only screen and (max-width:571px) {
+    table{
+        width: 40%;
+    }
+    button{
+        width: 50px;
+        font-size: x-small;
+    }
+    .input{
+        width: 50px;
+    }
+    
+}
+@media only screen and (max-width:445px) {
+    table{
+        width: 20%;
+    }
+    button{
+        width: 50px;
+        font-size: x-small;
+    }
+    .input{
+        width: 50px;
+    }
+    .username{
+        font-size: x-small;
+    }
+    .email{
+        font-size: x-small;
+    }
+    th{
+        font-weight: 400;
+        font-size: small;
+    }
+    
+}
+@media only screen and (max-width:393px){
+    input{
+        width:20px;
+    }
+    button{
+        width: 50px;
+        font-size: xx-small;
+    }
+    .email{
+        font-size: xx-small;
+    }
+}
